@@ -1,0 +1,56 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    text-align: center;
+    height: 60%;
+    width: 21vw;
+    color: white;
+    background-color: black;
+    border: 2px solid orange;
+}
+
+h1{
+    color: rgb(237, 248, 243);
+}
+
+#pic{
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+#github{
+    border-radius: 50%;
+    width: 10%;
+    cursor: pointer;
+    margin: 0 1vh;
+}
+
+#linkedin{
+    border-radius: 50%;
+    width: 10%;
+    cursor: pointer;
+    margin: 0 1vh;
+}
+
+button{
+    background-color: orange;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    height: 5vh;
+    width: 9vw;
+    margin: 0 0.5vh;
+}
