@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0 0.5vw;
+    height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color: orange;
+    text-decoration: underline dashed;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    border-radius: 0.5vw;
+    border: none;
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(233, 195, 125);
+}
+
+.container {
+    color: white;
+    height: 100vh;
+}
